@@ -1,0 +1,61 @@
+
+
+   body {
+    background-color: #181818;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+  
+  th {
+    background-color: #282828;
+  }
+  
+  .coin-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .coin-name {
+    font-weight: bold;
+  }
+  
+  .price, .market-cap, .percentage {
+    text-align: right;
+  }
+  
+  button {
+    background-color: #333;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
